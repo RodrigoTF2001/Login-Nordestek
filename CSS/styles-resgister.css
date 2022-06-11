@@ -1,0 +1,142 @@
+/* -------------Geral------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald',sans-serif;
+}
+
+img{
+    width: 5%;
+    padding-left: 1rem;
+}
+
+header{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+header a{
+    padding-left: 2rem;
+    color: #08111c;
+}
+
+header a:hover{
+    color: #efe818;
+    transition: 0.3s ease-in-out;
+}
+
+div{
+    bottom: 20px;
+}
+
+/* ------------------Main---------------- */
+
+main{
+    width: 100%;
+    min-height: 50vw;
+    background: linear-gradient(to top, #08111cdd, #efae18bf);
+
+    display: flex;
+    justify-content: center;
+}
+
+main form{
+    margin-top: 5%;
+    width: 35%;
+    height: 75vh;
+    background-color: #00000079;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4)inset rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------------Inputs---------------- */
+
+main form .inputs-container{
+    margin-top: 2%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container input{
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    margin: 0.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+
+    font-size: 16px;
+    color: #312e42;
+
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+main form .inputs-container input:focus{
+    box-shadow:inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+/* ------------Passwords------------- */
+
+main form .password-container{
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .password-container i{
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    cursor: pointer;
+}
+
+main form .password-container #eye{
+    display: none;
+}
+
+/* -------------Button---------------- */
+
+main form button{
+    background-color: #f1f3f6;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 2%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #dad308e5;
+}
+
+main form button:hover{
+    background-color: black;
+    color: #efe818;
+}
+

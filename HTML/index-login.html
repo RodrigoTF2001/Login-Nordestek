@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brave Tecnologies</title>
+    <link rel="stylesheet" href="/CSS/styles-login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/75b3ae98f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Brave Tecnologies</h1>
+        <img src="https://i.pinimg.com/originals/4e/c6/ce/4ec6ce24801cf0703df436eb73d3b807.jpg" alt="">
+    </header>
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="example@gmail.com">
+  
+                <div class="password-container">
+                    <input type="password" id="field-password" class="fieldpassword" placeholder="*******">
+                    <i class="fa-regular fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fa-regular fa-eye-slash" id="closed-eye" onclick="showPassword()"></i>
+                </div>
+              </section>
+
+              <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+                <button id="Login-Page">Logar</button>
+            <footer>
+                <hr>
+                <span>Ainda não possui uma conta? <a href="index-register.html">Cadastre-se</a></span>   
+            </footer> 
+        </form>
+    </main>
+    <script src="/JS/main-login.js"></script>
+</body>
+</html>
